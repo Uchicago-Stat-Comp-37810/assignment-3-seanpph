@@ -29,13 +29,19 @@ def neq(a,b):
         return False
     else:
         return True
-        
+
+# or simply
+
+def neq1(a,b):
+    return (not a==b)
 
 # Test cases for not_equal
 print("neq(3,5) is:", neq(3,5))
+print("neq1(3,5) is:", neq1(3,5))
 print("3!=5 is:", 3!=5)
 
 print("neq(5,5) is:", neq(5,5))
+print("neq1(5,5) is:", neq1(5,5))
 print("5!=5 is:", 5!=5)
 
 # ********** Exercise 3 ********** 
